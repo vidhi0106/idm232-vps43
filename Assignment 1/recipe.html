@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+<div class="header">  
+<div class="logo">
+    <img class="logo_pic" src="Pictures/logo.png" alt="logo">
+    <h1>Bowlful Recipes</h1>
+</div>
+
+ <div class="search_container">
+        <form>
+          <input type="text" placeholder="Type here.." name="search">
+          <button class="btn" type="submit">Search</button>
+        </form>
+    
+</div>
+</div> 
+
+
+<div class="filter"  id="myBtnContainer">
+    <button class="btn" onclick="filterSelection('Vegetarian')"> Vegetarian</button>
+    <button class="btn" onclick="filterSelection('Pork')"> Pork</button>
+    <button class="btn" onclick="filterSelection('Chicken')"> Chicken</button>
+    <button class="btn" onclick="filterSelection('Fish')"> Fish</button>
+    <button class="btn" onclick="filterSelection('Beef')"> Beef</button>
+  </div>
+  
+
+
+
+
+<div class="main_grid">
+
+<div class="recipe_card">
+<div class="recipe_image">
+    <img class="image" src="Pictures/Ancho_orange_chicken.jpg" alt=" Ancho Orange Chicken Image">
+</div>
+
+<div class="type">
+    <h4>VEGETARIAN</h4>
+</div>
+
+<div class="recipe_name">
+    <div><h2>Ancho Orange Chicken</h2></div> 
+    <div><h4>with Kale Rice and Roasted Carrots</h4></div>
+</div>
+
+<div class="more_info">
+<div class="cook_time">
+<div class="icon">
+<img class="clock" src="Pictures/cook_time_icon.png" alt="cook time icon">
+<div class="cook_time_text"> 
+<p>45 Mins</p>
+</div>
+</div>
+</div>
+
+<div class="calories">
+<p>600 Cals</p>
+</div>
+</div>
+</div>
+
+<!--next card-->
+
+<div class="recipe_card">
+    <div class="recipe_image">
+        <img class="image" src="Pictures/beef_medallion.jpeg" alt=" Beef Medallion Image">
+    </div>
+    
+    <div class="type">
+        <h4>BEEF</h4>
+    </div>
+    
+    <div class="recipe_name">
+        <div><h2>Beef Medallions & Mushroom Sauce</h2></div> 
+        <div><h4>with Mashed Potatoes</h4></div>
+    </div>
+    
+    <div class="more_info">
+    <div class="cook_time">
+    <div class="icon">
+    <img class="clock" src="Pictures/cook_time_icon.png" alt="cook time icon">
+    <div class="cook_time_text"> 
+    <p>45 Mins</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="calories">
+    <p>700 Cals</p>
+    </div>
+    </div>
+    </div>
+
+<!--next card-->
+
+<div class="recipe_card">
+    <div class="recipe_image">
+        <img class="image" src="Pictures/pesto_brocoli_sandwich.jpeg" alt=" Brocoli and Basil Pesto sandwich image">
+    </div>
+    
+    <div class="type">
+        <h4>VEGETARIAN</h4>
+    </div>
+    
+    <div class="recipe_name">
+        <div><h2>Brocoli & Basil Pesto Sandwich</h2></div> 
+        <div><h4>with Romanie and Citrus Salad</h4></div>
+    </div>
+    
+    <div class="more_info">
+    <div class="cook_time">
+    <div class="icon">
+    <img class="clock" src="Pictures/cook_time_icon.png" alt="cook time icon">
+    <div class="cook_time_text"> 
+    <p>45 Mins</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="calories">
+    <p>910 Cals</p>
+    </div>
+    </div>
+    </div>
+
+<!--next card-->
+
+<div class="recipe_card">
+    <div class="recipe_image">
+        <img class="image" src="Pictures/brocoli_calzone.jpeg" alt=" Brocoli and mozerela calzones Image">
+    </div>
+    
+    <div class="type">
+        <h4>VEGETARIAN</h4>
+    </div>
+    
+    <div class="recipe_name">
+        <div><h2>Brocoli & Mozzarella Calzones</h2></div> 
+        <div><h4>with Ceasar Salad</h4></div>
+    </div>
+    
+    <div class="more_info">
+    <div class="cook_time">
+    <div class="icon">
+    <img class="clock" src="Pictures/cook_time_icon.png" alt="cook time icon">
+    <div class="cook_time_text"> 
+    <p>50 Mins</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="calories">
+    <p>930 Cals</p>
+    </div>
+    </div>
+    </div>
+
+
+<!--next card-->
+
+<div class="recipe_card">
+    <div class="recipe_image">
+        <img class="image" src="Pictures/Broccoli_Bucatini_Fettuccine.jpeg" alt=" Bucatini Alfredo Image">
+    </div>
+    
+    <div class="type">
+        <h4>VEGETARIAN</h4>
+    </div>
+    
+    <div class="recipe_name">
+        <div><h2>Bucatini Alfredo</h2></div> 
+        <div><h4>with Brocoli</h4></div>
+    </div>
+    
+    <div class="more_info">
+    <div class="cook_time">
+    <div class="icon">
+    <img class="clock" src="Pictures/cook_time_icon.png" alt="cook time icon">
+    <div class="cook_time_text"> 
+    <p>25 Mins</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="calories">
+    <p>850 Cals</p>
+    </div>
+    </div>
+    </div>
+
+<!--next card-->
+
+<div class="recipe_card">
+    <div class="recipe_image">
+        <img class="image" src="Pictures/Bucatini_tomato.jpeg" alt=" Bucatini Tomato Image">
+    </div>
+    
+    <div class="type">
+        <h4>VEGETARIAN</h4>
+    </div>
+    
+    <div class="recipe_name">
+        <div><h2>Bucatini & Tomato Sauce</h2></div> 
+        <div><h4>with Roasted Brocoli</h4></div>
+    </div>
+    
+    <div class="more_info">
+    <div class="cook_time">
+    <div class="icon">
+    <img class="clock" src="Pictures/cook_time_icon.png" alt="cook time icon">
+    <div class="cook_time_text"> 
+    <p>30 Mins</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="calories">
+    <p>670 Cals</p>
+    </div>
+    </div>
+    </div>
+
+<!--next card-->
+
+<div class="recipe_card">
+    <div class="recipe_image">
+        <img class="image" src="Pictures/Cheesy_Enchiladas.jpeg" alt=" Cheesy Enchiladas Image">
+    </div>
+    
+    <div class="type">
+        <h4>VEGETARIAN</h4>
+    </div>
+    
+    <div class="recipe_name">
+        <div><h2>Cheesy Enchiladas Rojas</h2></div> 
+        <div><h4>with Mushrooms and Kale</h4></div>
+    </div>
+    
+    <div class="more_info">
+    <div class="cook_time">
+    <div class="icon">
+    <img class="clock" src="Pictures/cook_time_icon.png" alt="cook time icon">
+    <div class="cook_time_text"> 
+    <p>60 Mins</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="calories">
+    <p>750 Cals</p>
+    </div>
+    </div>
+    </div>
+
+<!--next card-->
+
+<div class="recipe_card">
+    <div class="recipe_image">
+        <img class="image" src="Pictures/Crispy_fish_sandwich.jpeg" alt=" crispy fish sandwich Image">
+    </div>
+    
+    <div class="type">
+        <h4>FISH</h4>
+    </div>
+    
+    <div class="recipe_name">
+        <div><h2>Crispy Fish Sandwiches</h2></div> 
+        <div><h4>with Tartar Sauce & Roasted Sweet Potato Wedges</h4></div>
+    </div>
+    
+    <div class="more_info">
+    <div class="cook_time">
+    <div class="icon">
+    <img class="clock" src="Pictures/cook_time_icon.png" alt="cook time icon">
+    <div class="cook_time_text"> 
+    <p>40 Mins</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="calories">
+    <p>790 Cals</p>
+    </div>
+    </div>
+    </div>
+
+
+<!--next card-->
+
+<div class="recipe_card">
+    <div class="recipe_image">
+        <img class="image" src="Pictures/General_Tsos_Chicken.jpeg" alt=" General Tso's Chicken Image">
+    </div>
+    
+    <div class="type">
+        <h4>CHICKEN</h4>
+    </div>
+    
+    <div class="recipe_name">
+        <div><h2>General Tso's Chicken</h2></div> 
+        <div><h4>with Bok Choy & Jasmine Rice</h4></div>
+    </div>
+    
+    <div class="more_info">
+    <div class="cook_time">
+    <div class="icon">
+    <img class="clock" src="Pictures/cook_time_icon.png" alt="cook time icon">
+    <div class="cook_time_text"> 
+    <p>20 Mins</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="calories">
+    <p>700 Cals</p>
+    </div>
+    </div>
+    </div>
+
+</div>
+
+
+<footer>
+   <div class="footer" > <h4>© Created by Vidhi Shah</h4></div>
+</footer>
+    
+</body>
+</html>
