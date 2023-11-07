@@ -1,0 +1,15 @@
+#content{
+    text-align:center;
+}
+
+figure img{
+    max-width:100%;
+}
+
+.oneRec{
+    background-color:beige;
+}
+
+.oneRecOdd{
+    background-color:aquamarine;
+}
