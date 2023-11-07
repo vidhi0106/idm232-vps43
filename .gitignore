@@ -1,0 +1,4 @@
+# Files I don't want to see on github 
+**/env.php
+
+**/.DS_Store
