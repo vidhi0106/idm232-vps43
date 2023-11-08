@@ -4,7 +4,7 @@
 
 <head>
   <title>PHP Main Menu Dynamic</title>
-  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./general.css">
 </head>
 
 <body>

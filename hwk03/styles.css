@@ -55,7 +55,7 @@ b{
 h2{
     font-family: var(--Lato-Bold);
     font-size: 1.8rem;
-    margin:10px 10px;
+    margin:10px 10px 10px 0px;
 }
 
 .subtitle_page{
@@ -327,12 +327,13 @@ grid-template-columns: 1fr 1fr ;
 .step{
 margin-bottom:15px;
 display:flex;
+margin-left:30px;
 
 }
 
 .step_desc{
 
-margin-top:15px;
+margin:15px 30px 0px 30px;
 display:flex;
 }
 
