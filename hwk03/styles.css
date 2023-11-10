@@ -325,7 +325,8 @@ grid-template-columns: 1fr 1fr ;
 
 
 .step{
-margin-bottom:15px;
+margin-bottom:10px;
+margin-top:15px;
 display:flex;
 margin-left:30px;
 
